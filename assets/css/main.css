@@ -156,6 +156,15 @@ input, select, textarea {
 		text-decoration: none;
 		color: inherit;
 	}
+		a#curator-link {
+			font-size: 1.8rem;
+			font-weight: bolder;
+		}
+
+		a#moody-link {
+			font-size: 1.8rem;
+			font-weight: bolder;
+		}
 
 		a:hover {
 			border-bottom-color: transparent;
@@ -172,6 +181,10 @@ input, select, textarea {
 
 	p {
 		margin: 0 0 2rem 0;
+	}
+
+	p.project-summary {
+		margin: 0;
 	}
 
 	h1, h2, h3, h4, h5, h6 {
@@ -383,6 +396,10 @@ input, select, textarea {
 		line-height: 1.5;
 		margin: 0 0 1rem 0;
 		text-transform: uppercase;
+	}
+
+	label#email-address {
+		margin: 0;
 	}
 
 	input[type="text"],
@@ -715,6 +732,10 @@ input, select, textarea {
 			margin: 2.5rem 0;
 			width: 100%;
 		}
+			.image#about-pic {
+				width: 80%;
+				height: 80%;
+			}
 
 			.image.main img {
 				width: 100%;
@@ -940,13 +961,17 @@ input, select, textarea {
 				border-radius: 100%;
 				/* box-shadow: inset 0 0 0 1px #ffffff; */
 				display: inline-block;
-				height: 3.5rem;
-				line-height: 5rem;
+				/* height: 3.5rem; */
+				line-height: 4rem;
 				text-align: center;
 				width: 4rem;
 			}
 
-				ul.icons li a,i:hover {
+				ul.icons li a:hover {
+					background-color: rgba(255, 255, 255, 0.075);
+				}
+
+				ul.icons li i:hover {
 					background-color: rgba(255, 255, 255, 0.075);
 				}
 
@@ -1571,7 +1596,7 @@ input, select, textarea {
 			transition: opacity 0.325s ease-in-out, transform 0.325s ease-in-out;
 			padding: 4.5rem 2.5rem 1.5rem 2.5rem ;
 			position: relative;
-			width: 40rem;
+			width: 45rem;
 			max-width: 100%;
 			background-color: rgba(27, 31, 34, 0.85);
 			border-radius: 4px;

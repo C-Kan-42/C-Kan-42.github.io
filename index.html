@@ -81,15 +81,47 @@
 						<!-- Projects -->
 							<article id="projects">
 								<h2 class="major">Projects</h2>
-								<span class="image main"><img src="images/pic02.jpg" alt="" /></span>
-								<p>Adipiscing magna sed dolor elit. Praesent eleifend dignissim arcu, at eleifend sapien imperdiet ac. Aliquam erat volutpat. Praesent urna nisi, fringila lorem et vehicula lacinia quam. Integer sollicitudin mauris nec lorem luctus ultrices.</p>
-								<p>Nullam et orci eu lorem consequat tincidunt vivamus et sagittis libero. Mauris aliquet magna magna sed nunc rhoncus pharetra. Pellentesque condimentum sem. In efficitur ligula tate urna. Maecenas laoreet massa vel lacinia pellentesque lorem ipsum dolor. Nullam et orci eu lorem consequat tincidunt. Vivamus et sagittis libero. Mauris aliquet magna magna sed nunc rhoncus amet feugiat tempus.</p>
+								<span class="image main"><img src="images/curator_screenshot.PNG" alt="" /></span>
+								<p class="project-summary">
+									<a href="curator-1.herokuapp.com" id="curator-link">Curator</a>&nbsp;&nbsp;is a pixel-perfect tribute to Feedly, a popular news aggregator that parses RSS feeds, allowing users to bypass social media and
+									advertisements while retaining access to their favorite articles. This web app enables users to create and view their own
+									personalized news page, with their favorite topics and sites neatly organized in one place.
+									<br> <br>
+									<a href="https://github.com/C-Kan-42/curator">Github</a> |
+									Tech stack: Ruby on Rails, PostgreSQL, JavaScript, React/Redux, HTML, CSS
+									<br><br>
+									Features:
+									<ul>
+										<li>User authentication</li>
+										<li>Automated article scraping of RSS feeds</li>
+										<li>Article detail and feed preview floating modal pop outs</li> 
+										<li>Follow, unfollow feeds</li>
+										<li>Dynamic search bar</li>
+										<li>Read/unread article marking, and recently read page</li>
+									</ul>
+								</p>
+
+								<span class="image main"><img src="images/moodytunes.PNG" alt="" /></span>
+								<p class="project-summary"> <a href="https://moody-tunes-app.herokuapp.com" id="moody-link">MoodyTunes</a>&nbsp;&nbsp;is a music-sharing site where users can find the perfect playlist for their mood. Each playlist has reaction
+									upvotes which endorse that playlist's mood, and registered users can also follow their favorites for easy access.
+									<br> <br>
+									<a href="https://github.com/C-Kan-42/moody-tunes">Github</a> |
+									MERN stack: MongoDB, Express.js, Node.js, JavaScript, React/Redux, HTML, CSS
+									<br><br>
+									Features:
+									<ul>
+										<li>User authentication</li>
+										<li>Followable, embedded Spotify playlists</li>
+										<li>User profile (for registered users)</li>
+										<li>Live-updated reaction counts for playlists</li>
+									</ul>
+								</p>
 							</article>
 
 						<!-- About -->
 							<article id="about">
 								<h2 class="major">About</h2>
-								<span class="image main"><img src="images/snow_carina.jpg" alt="" /></span>
+								<span class="image main"><img src="images/snow_carina.jpg" alt="" id="about-pic"/></span>
 								<p>UC Berkeley Engineering Physics grad-turned software developer, based in San Francisco. Previously built astronomical telescope components, now
 								builds React components (and fluent in <a href="#skills">these technologies</a>).
 								<br><br>
@@ -106,31 +138,31 @@
 						<!-- Contact -->
 							<article id="contact">
 								<h2 class="major">Contact</h2>
-								<form method="post" action="#">
+								<form action="mailto:carina.d.kan@gmail.com" method="GET" enctype="text/plain">
 									<div class="fields">
-										<div class="field half">
-											<label for="name">Name</label>
-											<input type="text" name="name" id="name" />
+										<div class="field">
+											<label for="name" id="email-address">Email: carina.d.kan@gmail.com</label>
+											<!-- <input type="text" name="subject" id="name" /> -->
 										</div>
-										<div class="field half">
+										<!-- <div class="field half">
 											<label for="email">Email</label>
 											<input type="text" name="email" id="email" />
-										</div>
+										</div> -->
 										<div class="field">
 											<label for="message">Message</label>
-											<textarea name="message" id="message" rows="4"></textarea>
+											<textarea name="body" id="message" rows="4"></textarea>
 										</div>
 									</div>
 									<ul class="actions">
-										<li><input type="submit" value="Send Message" class="primary" /></li>
+										<li><input type="submit" value="Send Email" class="primary" /></li>
 										<li><input type="reset" value="Reset" /></li>
 									</ul>
 								</form>
 								<ul class="icons">
-									<li><a href="#" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
-									<li><a href="#" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li>
-									<li><a href="#" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>
-									<li><a href="#" class="icon brands fa-github"><span class="label">GitHub</span></a></li>
+									<li><a href="https://www.linkedin.com/in/carinakan" class="icon brands fa-linkedin" target="_blank"><span class="label">LinkedIn</span></a></li>
+									<li><a href="https://github.com/C-Kan-42" class="icon brands fa-github" target="_blank"><span class="label">Github</span></a></li>
+									<li><a href="https://angel.co/u/carina-kan" class="icon brands fa-angellist" target="_blank"><span class="label">AngelList</span></a></li>
+									<li><a class="icon fas fa-envelope" title="carina.d.kan@gmail.com"><span class="label" target="_blank">Email</span></a></li>
 								</ul>
 							</article>
 
@@ -192,10 +224,10 @@ print 'It took ' + i + ' iterations to sort the deck.';</code></pre>
 									</ol>
 									<h4>Icons</h4>
 									<ul class="icons">
-										<li><a href="#" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
-										<li><a href="#" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li>
-										<li><a href="#" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>
+										<li><a href="#" class="icon brands fa-linkedin"><span class="label">LinkedIn</span></a></li>
 										<li><a href="#" class="icon brands fa-github"><span class="label">Github</span></a></li>
+										<li><a href="#" class="icon brands fa-instagram"><span class="label">AngelList</span></a></li>
+										<li><a href="#" class="icon brands fa-github"><span class="label">Email</span></a></li>
 									</ul>
 
 									<h4>Actions</h4>
